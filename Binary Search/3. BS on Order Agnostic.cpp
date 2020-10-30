@@ -69,7 +69,7 @@ signed main()
    
    int ind;
    
-   if (v[0] < v[1]) {
+   if (v[0] < v[n - 1]) {
    	ind = binarySearchAsc(v, element);
    } else {
    	ind = binarySearchDesc(v, element);
